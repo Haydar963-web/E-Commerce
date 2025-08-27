@@ -28,7 +28,8 @@
 }
 .top-header-logo:hover {
   color: aqua;
-  box-shadow: 3px 3px 30px 5px aquamarine;
+  text-shadow: 3px 3px 15px aquamarine;
+  transform: scale(1.1);
 }
 .top-header-logo i {
   margin-left: 5px;
@@ -68,7 +69,7 @@
 }
 .top-header-text b:hover {
   color: aqua;
-  box-shadow: 3px 3px 30px 5px aquamarine;
+  text-shadow: 3px 3px 15px aquamarine;
 }
 .top-header-phone {
   font-size: 24px;
@@ -89,6 +90,9 @@
   border-radius: 7px;
   position: relative;
   overflow: hidden;
+}
+.middle-header-search-box:hover {
+  box-shadow: 3px 3px 30px 5px aqua;
 }
 .middle-header-search-box input {
   width: 100%;
@@ -114,6 +118,10 @@
   font-weight: 5800;
   cursor: pointer;
   position: relative;
+}
+.middle-header-shopping-cart:hover {
+  text-shadow: 3px 3px 15px aqua;
+  transform: scale(1.1);
 }
 .bi-cart3 {
   font-size: 32px;
@@ -142,6 +150,7 @@
 .navbar-links {
   display: flex;
   align-items: center;
+  overflow: hidden;
 }
 .navbar-link {
   color: var(--white-color);
@@ -151,8 +160,9 @@
   font-weight: 500;
 }
 .navbar-link:hover {
-  color: var(--info-color);
-  text-shadow: 5px 5px 30px aquamarine;
+  color: white;
+  text-shadow: 1px 1px 8px aqua;
+  transform: scale(1.2);
 }
 .navbar-close-icon {
   font-size: 32px;

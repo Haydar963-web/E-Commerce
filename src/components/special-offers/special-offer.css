@@ -5,6 +5,13 @@
   font-size: 21px;
   color: var(--primary-color);
   margin-bottom: 15px;
+  width: fit-content;
+  cursor: pointer;
+}
+.special-offers-title:hover {
+  transform: scale(1.1);
+  text-shadow: 3px 3px 15px crimson;
+  font-weight: 500;
 }
 .special-offers-icon-wrapper {
   color: var(--strong-red-color);
@@ -19,9 +26,9 @@
   justify-content: space-between;
   flex-wrap: wrap;
 }
-/* FRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRom MMMMMMMMMMMMMi */
 .offer:hover {
-  box-shadow: 2px 2px 25px 10px crimson;
+  box-shadow: 2px 2px 25px 5px rgb(119, 102, 106);
+  transform: scale(1.05);
 }
 .offer {
   width: 49%;
@@ -34,6 +41,7 @@
   border-radius: 10px;
   padding: 5px;
   position: relative;
+  cursor: pointer;
 }
 .offer-image-wrapper {
   width: 40%;

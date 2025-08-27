@@ -20,6 +20,7 @@
 }
 .category-item:hover {
   box-shadow: 2px 2px 25px 10px aquamarine;
+  transform: scale(1.1);
 }
 .category-item:hover .category-item-title {
   color: aqua;

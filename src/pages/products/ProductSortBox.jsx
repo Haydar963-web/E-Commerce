@@ -25,7 +25,7 @@ const ProductSortBox = ({ setSortItem, sortItem, setCurrentPage }) => {
           name="sort"
           id="low"
         />
-        <label htmlFor="low"> من الأقل الی الأعلی</label>
+        <label htmlFor="low"> من الأرخص الی الأغلى</label>
       </div>
       <div className="form-group">
         <input
@@ -35,22 +35,10 @@ const ProductSortBox = ({ setSortItem, sortItem, setCurrentPage }) => {
           name="sort"
           id="high"
         />
-        <label htmlFor="high"> من الأعلی الی الأقل</label>
+        <label htmlFor="high"> من الأغلى الی الأرخص</label>
       </div>
     </div>
   );
 };
 
 export default ProductSortBox;
-
-/* 
-     <select
-        value={sortItem}
-        onChange={(e) => setSortItem(e.target.value)}
-        className="select-box"
-      >
-        <option value="select">ترتیب حسب</option>
-        <option value="low">السعر : من الأقل الی الأعلی</option>
-        <option value="high">السعر : من الأعلی الی الأقل</option>
-      </select>
-*/

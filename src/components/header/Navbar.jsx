@@ -9,7 +9,11 @@ const Navbar = ({ toggle, setToggle }) => {
         <Link to="/" onClick={() => setToggle(false)} className="navbar-link">
           الصفحة الرئيسية
         </Link>
-        <Link to="/products" onClick={() => setToggle(false)} className="navbar-link">
+        <Link
+          to="/products"
+          onClick={() => setToggle(false)}
+          className="navbar-link"
+        >
           الإلكترونيات والموبايلات
         </Link>
         <li onClick={() => setToggle(false)} className="navbar-link">

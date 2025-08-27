@@ -8,9 +8,11 @@
 .banner-img {
   width: 49%;
   height: 300px;
+  cursor: pointer;
 }
 .banner-img:hover {
-  box-shadow: 2px 2px 30px 4px crimson;
+  box-shadow: 2px 2px 25px 5px rgb(119, 102, 106);
+  transform: scale(1.05);
 }
 @media (max-width: 920px) {
   .banner {
